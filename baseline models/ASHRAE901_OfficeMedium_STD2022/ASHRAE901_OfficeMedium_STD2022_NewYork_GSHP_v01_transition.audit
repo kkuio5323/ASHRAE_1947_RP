@@ -1,0 +1,179 @@
+
+Conversion 22.1 => 22.2
+ Starting new Transition.audit
+ Will create new full IDFs
+ Will create new IDF lines with units where applicable
+ Will create new IDF lines leaving blank incoming fields as blank (no default fill)
+ Processing IDF -- C:\Users\yhw15\OneDrive\Documents\Year_25-26\1947-RP\ASHRAE901_OfficeMedium_STD2022\ASHRAE901_OfficeMedium_STD2022_NewYork_GSHP_v01.idf
+   ** Warning ** Object=Sizing:Zone, name=Core_bottom, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=Sizing:Zone, name=Perimeter_bot_ZN_1, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=Sizing:Zone, name=Perimeter_bot_ZN_2, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=Sizing:Zone, name=Perimeter_bot_ZN_3, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=Sizing:Zone, name=Perimeter_bot_ZN_4, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=Sizing:Zone, name=Core_mid, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=Sizing:Zone, name=Perimeter_mid_ZN_1, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=Sizing:Zone, name=Perimeter_mid_ZN_2, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=Sizing:Zone, name=Perimeter_mid_ZN_3, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=Sizing:Zone, name=Perimeter_mid_ZN_4, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=Sizing:Zone, name=Core_top, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=Sizing:Zone, name=Perimeter_top_ZN_1, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=Sizing:Zone, name=Perimeter_top_ZN_2, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=Sizing:Zone, name=Perimeter_top_ZN_3, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=Sizing:Zone, name=Perimeter_top_ZN_4, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=Sizing:System, name=PACU_VAV_bot, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=Sizing:System, name=PACU_VAV_mid, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=Sizing:System, name=PACU_VAV_top, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=ZoneHVAC:EquipmentList, name=Core_bottom Equipment, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=ZoneHVAC:EquipmentList, name=Perimeter_bot_ZN_1 Equipment, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=ZoneHVAC:EquipmentList, name=Perimeter_bot_ZN_2 Equipment, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=ZoneHVAC:EquipmentList, name=Perimeter_bot_ZN_3 Equipment, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=ZoneHVAC:EquipmentList, name=Perimeter_bot_ZN_4 Equipment, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=ZoneHVAC:EquipmentList, name=Core_mid Equipment, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=ZoneHVAC:EquipmentList, name=Perimeter_mid_ZN_1 Equipment, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=ZoneHVAC:EquipmentList, name=Perimeter_mid_ZN_2 Equipment, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=ZoneHVAC:EquipmentList, name=Perimeter_mid_ZN_3 Equipment, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=ZoneHVAC:EquipmentList, name=Perimeter_mid_ZN_4 Equipment, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=ZoneHVAC:EquipmentList, name=Core_top Equipment, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=ZoneHVAC:EquipmentList, name=Perimeter_top_ZN_1 Equipment, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=ZoneHVAC:EquipmentList, name=Perimeter_top_ZN_2 Equipment, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=ZoneHVAC:EquipmentList, name=Perimeter_top_ZN_3 Equipment, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=ZoneHVAC:EquipmentList, name=Perimeter_top_ZN_4 Equipment, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=ConnectorList, name=CHW_Loop Supply Connectors, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Severe  ** Object=ConnectorList, name=CHW_Loop Supply Connectors, Required Field=[Connector 1 Object Type] was blank.
+   ** Severe  ** Object=ConnectorList, name=CHW_Loop Supply Connectors, Required Field=[Connector 1 Name] was blank.
+   ** Warning ** Object=ConnectorList, name=HW_Loop Supply Connectors, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Severe  ** Object=ConnectorList, name=HW_Loop Supply Connectors, Required Field=[Connector 1 Object Type] was blank.
+   ** Severe  ** Object=ConnectorList, name=HW_Loop Supply Connectors, Required Field=[Connector 1 Name] was blank.
+   ** Severe  ** Error detected in Object=DistrictCooling, name=CHW_Loop DISTRICTCOOLING
+   **   ~~~   ** Field [Chilled Water Inlet Node Name] is required but was blank
+   ** Severe  ** Error detected in Object=DistrictCooling, name=CHW_Loop DISTRICTCOOLING
+   **   ~~~   ** Field [Chilled Water Outlet Node Name] is required but was blank
+   ** Severe  ** IP: IDF line~413700 Did not find "DISTRICTHEATING:WATER" in list of Objects
+   ** Severe  ** Error detected in Object=PlantLoop, name=CHW Loop
+   **   ~~~   ** Field [Loop Temperature Setpoint Node Name] is required but was blank
+   ** Severe  ** Error detected in Object=PlantLoop, name=HW Loop
+   **   ~~~   ** Field [Loop Temperature Setpoint Node Name] is required but was blank
+   ** Severe  ** Possible incorrect IDD File
+   **   ~~~   ** Possible Invalid Numerics or other problems
+   ** Severe  ** Blank "required" fields found in input
+   ** Severe  ** Out of "range" values and/or blank required fields found in input
+
+Conversion 22.2 => 23.1
+ Starting new Transition.audit
+ Will create new full IDFs
+ Will create new IDF lines with units where applicable
+ Will create new IDF lines leaving blank incoming fields as blank (no default fill)
+ Processing IDF -- C:\Users\yhw15\OneDrive\Documents\Year_25-26\1947-RP\ASHRAE901_OfficeMedium_STD2022\ASHRAE901_OfficeMedium_STD2022_NewYork_GSHP_v01.idf
+   ** Severe  ** Error detected in Object=DistrictCooling, name=CHW_Loop DISTRICTCOOLING
+   **   ~~~   ** Field [Chilled Water Inlet Node Name] is required but was blank
+   ** Severe  ** Error detected in Object=DistrictCooling, name=CHW_Loop DISTRICTCOOLING
+   **   ~~~   ** Field [Chilled Water Outlet Node Name] is required but was blank
+   ** Severe  ** Error detected in Object=PlantLoop, name=CHW Loop
+   **   ~~~   ** Field [Loop Temperature Setpoint Node Name] is required but was blank
+   ** Severe  ** Error detected in Object=PlantLoop, name=HW Loop
+   **   ~~~   ** Field [Loop Temperature Setpoint Node Name] is required but was blank
+   ** Severe  ** Blank "required" fields found in input
+   ** Severe  ** Out of "range" values and/or blank required fields found in input
+
+Conversion 23.1 => 23.2
+ Starting new Transition.audit
+ Will create new full IDFs
+ Will create new IDF lines with units where applicable
+ Will create new IDF lines leaving blank incoming fields as blank (no default fill)
+ Processing IDF -- C:\Users\yhw15\OneDrive\Documents\Year_25-26\1947-RP\ASHRAE901_OfficeMedium_STD2022\ASHRAE901_OfficeMedium_STD2022_NewYork_GSHP_v01.idf
+   ** Severe  ** Error detected in Object=DistrictCooling, name=CHW_Loop DISTRICTCOOLING
+   **   ~~~   ** Field [Chilled Water Inlet Node Name] is required but was blank
+   ** Severe  ** Error detected in Object=DistrictCooling, name=CHW_Loop DISTRICTCOOLING
+   **   ~~~   ** Field [Chilled Water Outlet Node Name] is required but was blank
+   ** Severe  ** Error detected in Object=PlantLoop, name=CHW Loop
+   **   ~~~   ** Field [Loop Temperature Setpoint Node Name] is required but was blank
+   ** Severe  ** Error detected in Object=PlantLoop, name=HW Loop
+   **   ~~~   ** Field [Loop Temperature Setpoint Node Name] is required but was blank
+   ** Severe  ** Blank "required" fields found in input
+   ** Severe  ** Out of "range" values and/or blank required fields found in input
+
+Conversion 23.2 => 24.1
+ Starting new Transition.audit
+ Will create new full IDFs
+ Will create new IDF lines with units where applicable
+ Will create new IDF lines leaving blank incoming fields as blank (no default fill)
+ Processing IDF -- C:\Users\yhw15\OneDrive\Documents\Year_25-26\1947-RP\ASHRAE901_OfficeMedium_STD2022\ASHRAE901_OfficeMedium_STD2022_NewYork_GSHP_v01.idf
+   ** Severe  ** Error detected in Object=DistrictCooling, name=CHW_Loop DISTRICTCOOLING
+   **   ~~~   ** Field [Chilled Water Inlet Node Name] is required but was blank
+   ** Severe  ** Error detected in Object=DistrictCooling, name=CHW_Loop DISTRICTCOOLING
+   **   ~~~   ** Field [Chilled Water Outlet Node Name] is required but was blank
+   ** Severe  ** Error detected in Object=PlantLoop, name=CHW Loop
+   **   ~~~   ** Field [Loop Temperature Setpoint Node Name] is required but was blank
+   ** Severe  ** Error detected in Object=PlantLoop, name=HW Loop
+   **   ~~~   ** Field [Loop Temperature Setpoint Node Name] is required but was blank
+   ** Severe  ** Blank "required" fields found in input
+   ** Severe  ** Out of "range" values and/or blank required fields found in input
+
+Conversion 24.1 => 24.2
+ Starting new Transition.audit
+ Will create new full IDFs
+ Will create new IDF lines with units where applicable
+ Will create new IDF lines leaving blank incoming fields as blank (no default fill)
+ Processing IDF -- C:\Users\yhw15\OneDrive\Documents\Year_25-26\1947-RP\ASHRAE901_OfficeMedium_STD2022\ASHRAE901_OfficeMedium_STD2022_NewYork_GSHP_v01.idf
+   ** Severe  ** Error detected in Object=DistrictCooling, name=CHW_Loop DISTRICTCOOLING
+   **   ~~~   ** Field [Chilled Water Inlet Node Name] is required but was blank
+   ** Severe  ** Error detected in Object=DistrictCooling, name=CHW_Loop DISTRICTCOOLING
+   **   ~~~   ** Field [Chilled Water Outlet Node Name] is required but was blank
+   ** Severe  ** Error detected in Object=PlantLoop, name=CHW Loop
+   **   ~~~   ** Field [Loop Temperature Setpoint Node Name] is required but was blank
+   ** Severe  ** Error detected in Object=PlantLoop, name=HW Loop
+   **   ~~~   ** Field [Loop Temperature Setpoint Node Name] is required but was blank
+   ** Severe  ** Blank "required" fields found in input
+   ** Severe  ** Out of "range" values and/or blank required fields found in input
+
+Conversion 24.2 => 25.1
+ Starting new Transition.audit
+ Will create new full IDFs
+ Will create new IDF lines with units where applicable
+ Will create new IDF lines leaving blank incoming fields as blank (no default fill)
+ Processing IDF -- C:\Users\yhw15\OneDrive\Documents\Year_25-26\1947-RP\ASHRAE901_OfficeMedium_STD2022\ASHRAE901_OfficeMedium_STD2022_NewYork_GSHP_v01.idf
+   ** Severe  ** Error detected in Object=DistrictCooling, name=CHW_Loop DISTRICTCOOLING
+   **   ~~~   ** Field [Chilled Water Inlet Node Name] is required but was blank
+   ** Severe  ** Error detected in Object=DistrictCooling, name=CHW_Loop DISTRICTCOOLING
+   **   ~~~   ** Field [Chilled Water Outlet Node Name] is required but was blank
+   ** Severe  ** Error detected in Object=PlantLoop, name=CHW Loop
+   **   ~~~   ** Field [Loop Temperature Setpoint Node Name] is required but was blank
+   ** Severe  ** Error detected in Object=PlantLoop, name=HW Loop
+   **   ~~~   ** Field [Loop Temperature Setpoint Node Name] is required but was blank
+   ** Severe  ** Blank "required" fields found in input
+   ** Severe  ** Out of "range" values and/or blank required fields found in input

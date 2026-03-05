@@ -1,0 +1,108 @@
+
+Conversion 22.1 => 22.2
+ Starting new Transition.audit
+ Will create new full IDFs
+ Will create new IDF lines with units where applicable
+ Will create new IDF lines leaving blank incoming fields as blank (no default fill)
+ Processing IDF -- C:\Users\yhw15\OneDrive\Documents\Year_25-26\1947-RP\ASHRAE901_OfficeMedium_STD2022\ASHRAE901_OfficeMedium_STD2022_NewYork.idf
+   ** Warning ** Object=Sizing:System, name=PACU_VAV_bot, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=Sizing:Zone, name=Core_bottom, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=ZoneHVAC:EquipmentList, name=Core_bottom Equipment, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=Sizing:Zone, name=Perimeter_bot_ZN_1, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=ZoneHVAC:EquipmentList, name=Perimeter_bot_ZN_1 Equipment, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=Sizing:Zone, name=Perimeter_bot_ZN_2, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=ZoneHVAC:EquipmentList, name=Perimeter_bot_ZN_2 Equipment, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=Sizing:Zone, name=Perimeter_bot_ZN_3, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=ZoneHVAC:EquipmentList, name=Perimeter_bot_ZN_3 Equipment, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=Sizing:Zone, name=Perimeter_bot_ZN_4, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=ZoneHVAC:EquipmentList, name=Perimeter_bot_ZN_4 Equipment, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=Sizing:System, name=PACU_VAV_mid, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=Sizing:Zone, name=Core_mid, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=ZoneHVAC:EquipmentList, name=Core_mid Equipment, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=Sizing:Zone, name=Perimeter_mid_ZN_1, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=ZoneHVAC:EquipmentList, name=Perimeter_mid_ZN_1 Equipment, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=Sizing:Zone, name=Perimeter_mid_ZN_2, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=ZoneHVAC:EquipmentList, name=Perimeter_mid_ZN_2 Equipment, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=Sizing:Zone, name=Perimeter_mid_ZN_3, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=ZoneHVAC:EquipmentList, name=Perimeter_mid_ZN_3 Equipment, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=Sizing:Zone, name=Perimeter_mid_ZN_4, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=ZoneHVAC:EquipmentList, name=Perimeter_mid_ZN_4 Equipment, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=Sizing:System, name=PACU_VAV_top, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=Sizing:Zone, name=Core_top, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=ZoneHVAC:EquipmentList, name=Core_top Equipment, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=Sizing:Zone, name=Perimeter_top_ZN_1, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=ZoneHVAC:EquipmentList, name=Perimeter_top_ZN_1 Equipment, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=Sizing:Zone, name=Perimeter_top_ZN_2, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=ZoneHVAC:EquipmentList, name=Perimeter_top_ZN_2 Equipment, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=Sizing:Zone, name=Perimeter_top_ZN_3, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=ZoneHVAC:EquipmentList, name=Perimeter_top_ZN_3 Equipment, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=Sizing:Zone, name=Perimeter_top_ZN_4, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=ZoneHVAC:EquipmentList, name=Perimeter_top_ZN_4 Equipment, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+
+Conversion 22.2 => 23.1
+ Starting new Transition.audit
+ Will create new full IDFs
+ Will create new IDF lines with units where applicable
+ Will create new IDF lines leaving blank incoming fields as blank (no default fill)
+ Processing IDF -- C:\Users\yhw15\OneDrive\Documents\Year_25-26\1947-RP\ASHRAE901_OfficeMedium_STD2022\ASHRAE901_OfficeMedium_STD2022_NewYork.idf
+
+Conversion 23.1 => 23.2
+ Starting new Transition.audit
+ Will create new full IDFs
+ Will create new IDF lines with units where applicable
+ Will create new IDF lines leaving blank incoming fields as blank (no default fill)
+ Processing IDF -- C:\Users\yhw15\OneDrive\Documents\Year_25-26\1947-RP\ASHRAE901_OfficeMedium_STD2022\ASHRAE901_OfficeMedium_STD2022_NewYork.idf
+
+Conversion 23.2 => 24.1
+ Starting new Transition.audit
+ Will create new full IDFs
+ Will create new IDF lines with units where applicable
+ Will create new IDF lines leaving blank incoming fields as blank (no default fill)
+ Processing IDF -- C:\Users\yhw15\OneDrive\Documents\Year_25-26\1947-RP\ASHRAE901_OfficeMedium_STD2022\ASHRAE901_OfficeMedium_STD2022_NewYork.idf
+
+Conversion 24.1 => 24.2
+ Starting new Transition.audit
+ Will create new full IDFs
+ Will create new IDF lines with units where applicable
+ Will create new IDF lines leaving blank incoming fields as blank (no default fill)
+ Processing IDF -- C:\Users\yhw15\OneDrive\Documents\Year_25-26\1947-RP\ASHRAE901_OfficeMedium_STD2022\ASHRAE901_OfficeMedium_STD2022_NewYork.idf
+
+Conversion 24.2 => 25.1
+ Starting new Transition.audit
+ Will create new full IDFs
+ Will create new IDF lines with units where applicable
+ Will create new IDF lines leaving blank incoming fields as blank (no default fill)
+ Processing IDF -- C:\Users\yhw15\OneDrive\Documents\Year_25-26\1947-RP\ASHRAE901_OfficeMedium_STD2022\ASHRAE901_OfficeMedium_STD2022_NewYork.idf

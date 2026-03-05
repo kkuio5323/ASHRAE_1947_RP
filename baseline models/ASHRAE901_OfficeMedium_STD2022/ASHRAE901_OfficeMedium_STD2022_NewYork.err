@@ -1,0 +1,487 @@
+Program Version,EnergyPlus, Version 25.1.0-1c11a3d85f, YMD=2026.02.24 14:06,
+   ** Warning ** ProcessScheduleInput: Schedule:Constant = VAV_BOT MAX OA FRACTION
+   **   ~~~   ** Schedule Type Limits Name is empty.
+   **   ~~~   ** Schedule will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Constant = VAV_MID MAX OA FRACTION
+   **   ~~~   ** Schedule Type Limits Name is empty.
+   **   ~~~   ** Schedule will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Constant = VAV_TOP MAX OA FRACTION
+   **   ~~~   ** Schedule Type Limits Name is empty.
+   **   ~~~   ** Schedule will not be validated.
+   ************* Beginning Zone Sizing Calculations
+   ** Warning ** Weather file location will be used rather than entered (IDF) Location object.
+   **   ~~~   ** ..Location object=NEW.YORK-JOHN.F.KENNEDY.INTL.AP_NY_USA WMO=744860
+   **   ~~~   ** ..Weather File Location=New York-John F Kennedy Intl AP NY USA TMY3 WMO#=744860
+   **   ~~~   ** ..due to location differences, Latitude difference=[1.00E-002] degrees, Longitude difference=[0.00] degrees.
+   **   ~~~   ** ..Time Zone difference=[0.0] hour(s), Elevation difference=[28.57] percent, [2.00] meters.
+   ** Warning ** CheckUsedConstructions: There are 24 nominally unused constructions in input.
+   **   ~~~   ** Each Unused construction is shown.
+   ************* Construction=AIR_WALL
+   ************* Construction=OPAQUEDOOR
+   ************* Construction=ATTICROOFDECK
+   ************* Construction=EXT_SLAB_8IN_WITH_CARPET
+   ************* Construction=EXT_SLAB_8IN
+   ************* Construction=EXT_SLAB_6IN_WITH_CARPET
+   ************* Construction=EXT_SLAB_6IN
+   ************* Construction=BASEMENT_WALL
+   ************* Construction=INT_WOOD_FLOOR
+   ************* Construction=EXT_SOFFIT_FLOOR
+   ************* Construction=RES_ROOF
+   ************* Construction=SEMIHEATED_ROOF
+   ************* Construction=RES_EXT_WALL_GRD
+   ************* Construction=RES_EXT_WALL_MID
+   ************* Construction=RES_EXT_WALL_TOP
+   ************* Construction=SEMIHEATED_EXT_WALL_GRD
+   ************* Construction=SEMIHEATED_EXT_WALL_MID
+   ************* Construction=SEMIHEATED_EXT_WALL_TOP
+   ************* Construction=NONRES_FLOOR
+   ************* Construction=RES_FLOOR
+   ************* Construction=SEMIHEATED_FLOOR
+   ************* Construction=NONRES_FLOOR_CEILING
+   ************* Construction=RES_FLOOR_CEILING
+   ************* Construction=SEMIHEATED_FLOOR_CEILING
+   ** Warning ** GetDaylightingControls: Fraction of zone or space controlled by the Daylighting reference points is < 1.0.
+   **   ~~~   ** ..discovered in Daylighting:Controls="PERIMETER_BOT_ZN_1_DAYLCTRL", only 0.523 of the zone or space is controlled.
+   ** Warning ** GetDaylightingControls: Fraction of zone or space controlled by the Daylighting reference points is < 1.0.
+   **   ~~~   ** ..discovered in Daylighting:Controls="PERIMETER_BOT_ZN_2_DAYLCTRL", only 0.523 of the zone or space is controlled.
+   ** Warning ** GetDaylightingControls: Fraction of zone or space controlled by the Daylighting reference points is < 1.0.
+   **   ~~~   ** ..discovered in Daylighting:Controls="PERIMETER_BOT_ZN_3_DAYLCTRL", only 0.523 of the zone or space is controlled.
+   ** Warning ** GetDaylightingControls: Fraction of zone or space controlled by the Daylighting reference points is < 1.0.
+   **   ~~~   ** ..discovered in Daylighting:Controls="PERIMETER_BOT_ZN_4_DAYLCTRL", only 0.523 of the zone or space is controlled.
+   ** Warning ** GetDaylightingControls: Fraction of zone or space controlled by the Daylighting reference points is < 1.0.
+   **   ~~~   ** ..discovered in Daylighting:Controls="PERIMETER_MID_ZN_1_DAYLCTRL", only 0.523 of the zone or space is controlled.
+   ** Warning ** GetDaylightingControls: Fraction of zone or space controlled by the Daylighting reference points is < 1.0.
+   **   ~~~   ** ..discovered in Daylighting:Controls="PERIMETER_MID_ZN_2_DAYLCTRL", only 0.523 of the zone or space is controlled.
+   ** Warning ** GetDaylightingControls: Fraction of zone or space controlled by the Daylighting reference points is < 1.0.
+   **   ~~~   ** ..discovered in Daylighting:Controls="PERIMETER_MID_ZN_3_DAYLCTRL", only 0.523 of the zone or space is controlled.
+   ** Warning ** GetDaylightingControls: Fraction of zone or space controlled by the Daylighting reference points is < 1.0.
+   **   ~~~   ** ..discovered in Daylighting:Controls="PERIMETER_MID_ZN_4_DAYLCTRL", only 0.523 of the zone or space is controlled.
+   ** Warning ** GetDaylightingControls: Fraction of zone or space controlled by the Daylighting reference points is < 1.0.
+   **   ~~~   ** ..discovered in Daylighting:Controls="PERIMETER_TOP_ZN_1_DAYLCTRL", only 0.523 of the zone or space is controlled.
+   ** Warning ** GetDaylightingControls: Fraction of zone or space controlled by the Daylighting reference points is < 1.0.
+   **   ~~~   ** ..discovered in Daylighting:Controls="PERIMETER_TOP_ZN_2_DAYLCTRL", only 0.523 of the zone or space is controlled.
+   ** Warning ** GetDaylightingControls: Fraction of zone or space controlled by the Daylighting reference points is < 1.0.
+   **   ~~~   ** ..discovered in Daylighting:Controls="PERIMETER_TOP_ZN_3_DAYLCTRL", only 0.523 of the zone or space is controlled.
+   ** Warning ** GetDaylightingControls: Fraction of zone or space controlled by the Daylighting reference points is < 1.0.
+   **   ~~~   ** ..discovered in Daylighting:Controls="PERIMETER_TOP_ZN_4_DAYLCTRL", only 0.523 of the zone or space is controlled.
+   ** Warning ** GeneratorController constructor : GENERATOR:PVWATTS = PV_MODULE
+   **   ~~~   ** Availability Schedule will be ignored (runs all the time).
+   ************* Beginning System Sizing Calculations
+   ************* Beginning Plant Sizing Calculations
+   ************* SizeHVACSingleDuct: Potential issue with equipment sizing for AirTerminal:SingleDuct:VAV:Reheat = "CORE_BOTTOM VAV BOX COMPONENT".
+   **   ~~~   ** User-Specified Minimum Cooling Air Flow Fraction of 0.27800
+   **   ~~~   ** differs from Design Size Minimum Cooling Air Flow Fraction of 0.32657
+   **   ~~~   ** This may, or may not, indicate mismatched component sizes.
+   **   ~~~   ** Verify that the value entered is intended and is consistent with other components.
+   ************* SizeHVACSingleDuct: Potential issue with equipment sizing for AirTerminal:SingleDuct:VAV:Reheat = "CORE_BOTTOM VAV BOX COMPONENT".
+   **   ~~~   ** User-Specified Maximum Flow Fraction during Reheat of 0.50000 []
+   **   ~~~   ** differs from Design Size Maximum Flow Fraction during Reheat of 0.27800 []
+   **   ~~~   ** This may, or may not, indicate mismatched component sizes.
+   **   ~~~   ** Verify that the value entered is intended and is consistent with other components.
+   ************* SizeHVACSingleDuct: Potential issue with equipment sizing for AirTerminal:SingleDuct:VAV:Reheat = "CORE_MID VAV BOX COMPONENT".
+   **   ~~~   ** User-Specified Minimum Cooling Air Flow Fraction of 0.33100
+   **   ~~~   ** differs from Design Size Minimum Cooling Air Flow Fraction of 0.38947
+   **   ~~~   ** This may, or may not, indicate mismatched component sizes.
+   **   ~~~   ** Verify that the value entered is intended and is consistent with other components.
+   ************* SizeHVACSingleDuct: Potential issue with equipment sizing for AirTerminal:SingleDuct:VAV:Reheat = "CORE_MID VAV BOX COMPONENT".
+   **   ~~~   ** User-Specified Maximum Flow Fraction during Reheat of 0.50000 []
+   **   ~~~   ** differs from Design Size Maximum Flow Fraction during Reheat of 0.33885 []
+   **   ~~~   ** This may, or may not, indicate mismatched component sizes.
+   **   ~~~   ** Verify that the value entered is intended and is consistent with other components.
+   ************* SizeHVACSingleDuct: Potential issue with equipment sizing for AirTerminal:SingleDuct:VAV:Reheat = "CORE_TOP VAV BOX COMPONENT".
+   **   ~~~   ** User-Specified Minimum Cooling Air Flow Fraction of 0.30800
+   **   ~~~   ** differs from Design Size Minimum Cooling Air Flow Fraction of 0.36256
+   **   ~~~   ** This may, or may not, indicate mismatched component sizes.
+   **   ~~~   ** Verify that the value entered is intended and is consistent with other components.
+   ************* SizeHVACSingleDuct: Potential issue with equipment sizing for AirTerminal:SingleDuct:VAV:Reheat = "PERIMETER_TOP_ZN_3 VAV BOX COMPONENT".
+   **   ~~~   ** User-Specified Minimum Cooling Air Flow Fraction of 0.20100
+   **   ~~~   ** differs from Design Size Minimum Cooling Air Flow Fraction of 0.23618
+   **   ~~~   ** This may, or may not, indicate mismatched component sizes.
+   **   ~~~   ** Verify that the value entered is intended and is consistent with other components.
+   ************* SizeHVACSingleDuct: Potential issue with equipment sizing for AirTerminal:SingleDuct:VAV:Reheat = "PERIMETER_TOP_ZN_3 VAV BOX COMPONENT".
+   **   ~~~   ** User-Specified Maximum Flow Fraction during Reheat of 0.50000 []
+   **   ~~~   ** differs from Design Size Maximum Flow Fraction during Reheat of 0.62982 []
+   **   ~~~   ** This may, or may not, indicate mismatched component sizes.
+   **   ~~~   ** Verify that the value entered is intended and is consistent with other components.
+   ************* SizeHVACSingleDuct: Potential issue with equipment sizing for AirTerminal:SingleDuct:VAV:Reheat = "PERIMETER_TOP_ZN_2 VAV BOX COMPONENT".
+   **   ~~~   ** User-Specified Minimum Cooling Air Flow Fraction of 0.11600
+   **   ~~~   ** differs from Design Size Minimum Cooling Air Flow Fraction of 0.13619
+   **   ~~~   ** This may, or may not, indicate mismatched component sizes.
+   **   ~~~   ** Verify that the value entered is intended and is consistent with other components.
+   ************* SizeHVACSingleDuct: Potential issue with equipment sizing for AirTerminal:SingleDuct:VAV:Reheat = "PERIMETER_TOP_ZN_2 VAV BOX COMPONENT".
+   **   ~~~   ** User-Specified Maximum Flow Fraction during Reheat of 0.50000 []
+   **   ~~~   ** differs from Design Size Maximum Flow Fraction during Reheat of 0.36317 []
+   **   ~~~   ** This may, or may not, indicate mismatched component sizes.
+   **   ~~~   ** Verify that the value entered is intended and is consistent with other components.
+   ************* SizeHVACSingleDuct: Potential issue with equipment sizing for AirTerminal:SingleDuct:VAV:Reheat = "PERIMETER_TOP_ZN_1 VAV BOX COMPONENT".
+   **   ~~~   ** User-Specified Minimum Cooling Air Flow Fraction of 0.14800
+   **   ~~~   ** differs from Design Size Minimum Cooling Air Flow Fraction of 0.17410
+   **   ~~~   ** This may, or may not, indicate mismatched component sizes.
+   **   ~~~   ** Verify that the value entered is intended and is consistent with other components.
+   ************* SizeHVACSingleDuct: Potential issue with equipment sizing for AirTerminal:SingleDuct:VAV:Reheat = "PERIMETER_TOP_ZN_4 VAV BOX COMPONENT".
+   **   ~~~   ** User-Specified Minimum Cooling Air Flow Fraction of 0.10700
+   **   ~~~   ** differs from Design Size Minimum Cooling Air Flow Fraction of 0.12569
+   **   ~~~   ** This may, or may not, indicate mismatched component sizes.
+   **   ~~~   ** Verify that the value entered is intended and is consistent with other components.
+   ************* SizeHVACSingleDuct: Potential issue with equipment sizing for AirTerminal:SingleDuct:VAV:Reheat = "PERIMETER_TOP_ZN_4 VAV BOX COMPONENT".
+   **   ~~~   ** User-Specified Maximum Flow Fraction during Reheat of 0.50000 []
+   **   ~~~   ** differs from Design Size Maximum Flow Fraction during Reheat of 0.33517 []
+   **   ~~~   ** This may, or may not, indicate mismatched component sizes.
+   **   ~~~   ** Verify that the value entered is intended and is consistent with other components.
+   ************* SizeHVACSingleDuct: Potential issue with equipment sizing for AirTerminal:SingleDuct:VAV:Reheat = "PERIMETER_BOT_ZN_3 VAV BOX COMPONENT".
+   **   ~~~   ** User-Specified Minimum Cooling Air Flow Fraction of 0.25600
+   **   ~~~   ** differs from Design Size Minimum Cooling Air Flow Fraction of 0.30157
+   **   ~~~   ** This may, or may not, indicate mismatched component sizes.
+   **   ~~~   ** Verify that the value entered is intended and is consistent with other components.
+   ************* SizeHVACSingleDuct: Potential issue with equipment sizing for AirTerminal:SingleDuct:VAV:Reheat = "PERIMETER_BOT_ZN_3 VAV BOX COMPONENT".
+   **   ~~~   ** User-Specified Maximum Flow Fraction during Reheat of 0.50000 []
+   **   ~~~   ** differs from Design Size Maximum Flow Fraction during Reheat of 0.78775 []
+   **   ~~~   ** This may, or may not, indicate mismatched component sizes.
+   **   ~~~   ** Verify that the value entered is intended and is consistent with other components.
+   ************* SizeHVACSingleDuct: Potential issue with equipment sizing for AirTerminal:SingleDuct:VAV:Reheat = "PERIMETER_BOT_ZN_2 VAV BOX COMPONENT".
+   **   ~~~   ** User-Specified Minimum Cooling Air Flow Fraction of 0.14100
+   **   ~~~   ** differs from Design Size Minimum Cooling Air Flow Fraction of 0.16551
+   **   ~~~   ** This may, or may not, indicate mismatched component sizes.
+   **   ~~~   ** Verify that the value entered is intended and is consistent with other components.
+   ************* SizeHVACSingleDuct: Potential issue with equipment sizing for AirTerminal:SingleDuct:VAV:Reheat = "PERIMETER_BOT_ZN_2 VAV BOX COMPONENT".
+   **   ~~~   ** User-Specified Maximum Flow Fraction during Reheat of 0.50000 []
+   **   ~~~   ** differs from Design Size Maximum Flow Fraction during Reheat of 0.44136 []
+   **   ~~~   ** This may, or may not, indicate mismatched component sizes.
+   **   ~~~   ** Verify that the value entered is intended and is consistent with other components.
+   ************* SizeHVACSingleDuct: Potential issue with equipment sizing for AirTerminal:SingleDuct:VAV:Reheat = "PERIMETER_BOT_ZN_1 VAV BOX COMPONENT".
+   **   ~~~   ** User-Specified Minimum Cooling Air Flow Fraction of 0.18400
+   **   ~~~   ** differs from Design Size Minimum Cooling Air Flow Fraction of 0.21708
+   **   ~~~   ** This may, or may not, indicate mismatched component sizes.
+   **   ~~~   ** Verify that the value entered is intended and is consistent with other components.
+   ************* SizeHVACSingleDuct: Potential issue with equipment sizing for AirTerminal:SingleDuct:VAV:Reheat = "PERIMETER_BOT_ZN_1 VAV BOX COMPONENT".
+   **   ~~~   ** User-Specified Maximum Flow Fraction during Reheat of 0.50000 []
+   **   ~~~   ** differs from Design Size Maximum Flow Fraction during Reheat of 0.56240 []
+   **   ~~~   ** This may, or may not, indicate mismatched component sizes.
+   **   ~~~   ** Verify that the value entered is intended and is consistent with other components.
+   ************* SizeHVACSingleDuct: Potential issue with equipment sizing for AirTerminal:SingleDuct:VAV:Reheat = "PERIMETER_BOT_ZN_4 VAV BOX COMPONENT".
+   **   ~~~   ** User-Specified Minimum Cooling Air Flow Fraction of 0.13700
+   **   ~~~   ** differs from Design Size Minimum Cooling Air Flow Fraction of 0.16090
+   **   ~~~   ** This may, or may not, indicate mismatched component sizes.
+   **   ~~~   ** Verify that the value entered is intended and is consistent with other components.
+   ************* SizeHVACSingleDuct: Potential issue with equipment sizing for AirTerminal:SingleDuct:VAV:Reheat = "PERIMETER_BOT_ZN_4 VAV BOX COMPONENT".
+   **   ~~~   ** User-Specified Maximum Flow Fraction during Reheat of 0.50000 []
+   **   ~~~   ** differs from Design Size Maximum Flow Fraction during Reheat of 0.42907 []
+   **   ~~~   ** This may, or may not, indicate mismatched component sizes.
+   **   ~~~   ** Verify that the value entered is intended and is consistent with other components.
+   ************* SizeHVACSingleDuct: Potential issue with equipment sizing for AirTerminal:SingleDuct:VAV:Reheat = "PERIMETER_MID_ZN_3 VAV BOX COMPONENT".
+   **   ~~~   ** User-Specified Minimum Cooling Air Flow Fraction of 0.23100
+   **   ~~~   ** differs from Design Size Minimum Cooling Air Flow Fraction of 0.27232
+   **   ~~~   ** This may, or may not, indicate mismatched component sizes.
+   **   ~~~   ** Verify that the value entered is intended and is consistent with other components.
+   ************* SizeHVACSingleDuct: Potential issue with equipment sizing for AirTerminal:SingleDuct:VAV:Reheat = "PERIMETER_MID_ZN_3 VAV BOX COMPONENT".
+   **   ~~~   ** User-Specified Maximum Flow Fraction during Reheat of 0.50000 []
+   **   ~~~   ** differs from Design Size Maximum Flow Fraction during Reheat of 0.72620 []
+   **   ~~~   ** This may, or may not, indicate mismatched component sizes.
+   **   ~~~   ** Verify that the value entered is intended and is consistent with other components.
+   ************* SizeHVACSingleDuct: Potential issue with equipment sizing for AirTerminal:SingleDuct:VAV:Reheat = "PERIMETER_MID_ZN_2 VAV BOX COMPONENT".
+   **   ~~~   ** User-Specified Maximum Flow Fraction during Reheat of 0.50000 []
+   **   ~~~   ** differs from Design Size Maximum Flow Fraction during Reheat of 0.37299 []
+   **   ~~~   ** This may, or may not, indicate mismatched component sizes.
+   **   ~~~   ** Verify that the value entered is intended and is consistent with other components.
+   ************* SizeHVACSingleDuct: Potential issue with equipment sizing for AirTerminal:SingleDuct:VAV:Reheat = "PERIMETER_MID_ZN_1 VAV BOX COMPONENT".
+   **   ~~~   ** User-Specified Minimum Cooling Air Flow Fraction of 0.16400
+   **   ~~~   ** differs from Design Size Minimum Cooling Air Flow Fraction of 0.19238
+   **   ~~~   ** This may, or may not, indicate mismatched component sizes.
+   **   ~~~   ** Verify that the value entered is intended and is consistent with other components.
+   ************* SizeHVACSingleDuct: Potential issue with equipment sizing for AirTerminal:SingleDuct:VAV:Reheat = "PERIMETER_MID_ZN_4 VAV BOX COMPONENT".
+   **   ~~~   ** User-Specified Minimum Cooling Air Flow Fraction of 0.11600
+   **   ~~~   ** differs from Design Size Minimum Cooling Air Flow Fraction of 0.13617
+   **   ~~~   ** This may, or may not, indicate mismatched component sizes.
+   **   ~~~   ** Verify that the value entered is intended and is consistent with other components.
+   ************* SizeHVACSingleDuct: Potential issue with equipment sizing for AirTerminal:SingleDuct:VAV:Reheat = "PERIMETER_MID_ZN_4 VAV BOX COMPONENT".
+   **   ~~~   ** User-Specified Maximum Flow Fraction during Reheat of 0.50000 []
+   **   ~~~   ** differs from Design Size Maximum Flow Fraction during Reheat of 0.36311 []
+   **   ~~~   ** This may, or may not, indicate mismatched component sizes.
+   **   ~~~   ** Verify that the value entered is intended and is consistent with other components.
+   ** Warning ** Controller:MechanicalVentilation="PACU_VAV_BOT_DCV", Zone OA/person rate
+   **   ~~~   ** For Zone="CORE_BOTTOM".
+   **   ~~~   ** Zone outside air per person rate not set in Design Specification Outdoor Air Object="SZ DSOA CORE_BOTTOM".
+   ** Warning ** Controller:MechanicalVentilation="PACU_VAV_BOT_DCV", Zone OA/person rate
+   **   ~~~   ** For Zone="PERIMETER_BOT_ZN_1".
+   **   ~~~   ** Zone outside air per person rate not set in Design Specification Outdoor Air Object="SZ DSOA PERIMETER_BOT_ZN_1".
+   ** Warning ** Controller:MechanicalVentilation="PACU_VAV_BOT_DCV", Zone OA/person rate
+   **   ~~~   ** For Zone="PERIMETER_BOT_ZN_2".
+   **   ~~~   ** Zone outside air per person rate not set in Design Specification Outdoor Air Object="SZ DSOA PERIMETER_BOT_ZN_2".
+   ** Warning ** Controller:MechanicalVentilation="PACU_VAV_BOT_DCV", Zone OA/person rate
+   **   ~~~   ** For Zone="PERIMETER_BOT_ZN_3".
+   **   ~~~   ** Zone outside air per person rate not set in Design Specification Outdoor Air Object="SZ DSOA PERIMETER_BOT_ZN_3".
+   ** Warning ** Controller:MechanicalVentilation="PACU_VAV_BOT_DCV", Zone OA/person rate
+   **   ~~~   ** For Zone="PERIMETER_BOT_ZN_4".
+   **   ~~~   ** Zone outside air per person rate not set in Design Specification Outdoor Air Object="SZ DSOA PERIMETER_BOT_ZN_4".
+   ** Warning ** Controller:MechanicalVentilation="PACU_VAV_MID_DCV", Zone OA/person rate
+   **   ~~~   ** For Zone="CORE_MID".
+   **   ~~~   ** Zone outside air per person rate not set in Design Specification Outdoor Air Object="SZ DSOA CORE_MID".
+   ** Warning ** Controller:MechanicalVentilation="PACU_VAV_MID_DCV", Zone OA/person rate
+   **   ~~~   ** For Zone="PERIMETER_MID_ZN_1".
+   **   ~~~   ** Zone outside air per person rate not set in Design Specification Outdoor Air Object="SZ DSOA PERIMETER_MID_ZN_1".
+   ** Warning ** Controller:MechanicalVentilation="PACU_VAV_MID_DCV", Zone OA/person rate
+   **   ~~~   ** For Zone="PERIMETER_MID_ZN_2".
+   **   ~~~   ** Zone outside air per person rate not set in Design Specification Outdoor Air Object="SZ DSOA PERIMETER_MID_ZN_2".
+   ** Warning ** Controller:MechanicalVentilation="PACU_VAV_MID_DCV", Zone OA/person rate
+   **   ~~~   ** For Zone="PERIMETER_MID_ZN_3".
+   **   ~~~   ** Zone outside air per person rate not set in Design Specification Outdoor Air Object="SZ DSOA PERIMETER_MID_ZN_3".
+   ** Warning ** Controller:MechanicalVentilation="PACU_VAV_MID_DCV", Zone OA/person rate
+   **   ~~~   ** For Zone="PERIMETER_MID_ZN_4".
+   **   ~~~   ** Zone outside air per person rate not set in Design Specification Outdoor Air Object="SZ DSOA PERIMETER_MID_ZN_4".
+   ** Warning ** Controller:MechanicalVentilation="PACU_VAV_TOP_DCV", Zone OA/person rate
+   **   ~~~   ** For Zone="CORE_TOP".
+   **   ~~~   ** Zone outside air per person rate not set in Design Specification Outdoor Air Object="SZ DSOA CORE_TOP".
+   ** Warning ** Controller:MechanicalVentilation="PACU_VAV_TOP_DCV", Zone OA/person rate
+   **   ~~~   ** For Zone="PERIMETER_TOP_ZN_1".
+   **   ~~~   ** Zone outside air per person rate not set in Design Specification Outdoor Air Object="SZ DSOA PERIMETER_TOP_ZN_1".
+   ** Warning ** Controller:MechanicalVentilation="PACU_VAV_TOP_DCV", Zone OA/person rate
+   **   ~~~   ** For Zone="PERIMETER_TOP_ZN_2".
+   **   ~~~   ** Zone outside air per person rate not set in Design Specification Outdoor Air Object="SZ DSOA PERIMETER_TOP_ZN_2".
+   ** Warning ** Controller:MechanicalVentilation="PACU_VAV_TOP_DCV", Zone OA/person rate
+   **   ~~~   ** For Zone="PERIMETER_TOP_ZN_3".
+   **   ~~~   ** Zone outside air per person rate not set in Design Specification Outdoor Air Object="SZ DSOA PERIMETER_TOP_ZN_3".
+   ** Warning ** Controller:MechanicalVentilation="PACU_VAV_TOP_DCV", Zone OA/person rate
+   **   ~~~   ** For Zone="PERIMETER_TOP_ZN_4".
+   **   ~~~   ** Zone outside air per person rate not set in Design Specification Outdoor Air Object="SZ DSOA PERIMETER_TOP_ZN_4".
+   ** Warning ** Output:Meter:MeterFileOnly: invalid Key Name="GAS:FACILITY" - not found.
+   ************* Testing Individual Branch Integrity
+   ************* All Branches passed integrity testing
+   ************* Testing Individual Supply Air Path Integrity
+   ************* All Supply Air Paths passed integrity testing
+   ************* Testing Individual Return Air Path Integrity
+   ************* All Return Air Paths passed integrity testing
+   ************* No node connection errors were found.
+   ************* Beginning Simulation
+   ** Warning ** SimHVAC: Maximum iterations (20) exceeded for all HVAC loops, at RUNPERIOD 1, 01/01 02:20 - 02:30
+   **   ~~~   ** The solution for one or more of the Air Loop HVAC systems did not appear to converge
+   ** Warning ** CalcEquipmentFlowRates: "CORE_BOTTOM SUB CAT" - Target water temperature is greater than the hot water temperature by (1.77 C)
+   **   ~~~   **  Environment=RUNPERIOD 1, at Simulation time=01/01 06:00 - 06:10
+   **   ~~~   ** ...target water temperature     = 60.00 C
+   **   ~~~   ** ...hot water temperature        = 58.23 C
+   **   ~~~   ** ...Target water temperature should be less than or equal to the hot water temperature. Verify temperature setpoints and schedules.
+   ** Warning ** CalcEquipmentFlowRates: "CORE_MID SUB CAT" - Target water temperature is greater than the hot water temperature by (1.77 C)
+   **   ~~~   **  Environment=RUNPERIOD 1, at Simulation time=01/01 06:00 - 06:10
+   **   ~~~   ** ...target water temperature     = 60.00 C
+   **   ~~~   ** ...hot water temperature        = 58.23 C
+   **   ~~~   ** ...Target water temperature should be less than or equal to the hot water temperature. Verify temperature setpoints and schedules.
+   ** Warning ** CalcEquipmentFlowRates: "CORE_TOP SUB CAT" - Target water temperature is greater than the hot water temperature by (1.77 C)
+   **   ~~~   **  Environment=RUNPERIOD 1, at Simulation time=01/01 06:00 - 06:10
+   **   ~~~   ** ...target water temperature     = 60.00 C
+   **   ~~~   ** ...hot water temperature        = 58.23 C
+   **   ~~~   ** ...Target water temperature should be less than or equal to the hot water temperature. Verify temperature setpoints and schedules.
+   ** Warning ** CalcEquipmentFlowRates: "PERIMETER_TOP_ZN_3 SUB CAT" - Target water temperature is greater than the hot water temperature by (1.77 C)
+   **   ~~~   **  Environment=RUNPERIOD 1, at Simulation time=01/01 06:00 - 06:10
+   **   ~~~   ** ...target water temperature     = 60.00 C
+   **   ~~~   ** ...hot water temperature        = 58.23 C
+   **   ~~~   ** ...Target water temperature should be less than or equal to the hot water temperature. Verify temperature setpoints and schedules.
+   ** Warning ** CalcEquipmentFlowRates: "PERIMETER_TOP_ZN_2 SUB CAT" - Target water temperature is greater than the hot water temperature by (1.77 C)
+   **   ~~~   **  Environment=RUNPERIOD 1, at Simulation time=01/01 06:00 - 06:10
+   **   ~~~   ** ...target water temperature     = 60.00 C
+   **   ~~~   ** ...hot water temperature        = 58.23 C
+   **   ~~~   ** ...Target water temperature should be less than or equal to the hot water temperature. Verify temperature setpoints and schedules.
+   ** Warning ** CalcEquipmentFlowRates: "PERIMETER_TOP_ZN_1 SUB CAT" - Target water temperature is greater than the hot water temperature by (1.77 C)
+   **   ~~~   **  Environment=RUNPERIOD 1, at Simulation time=01/01 06:00 - 06:10
+   **   ~~~   ** ...target water temperature     = 60.00 C
+   **   ~~~   ** ...hot water temperature        = 58.23 C
+   **   ~~~   ** ...Target water temperature should be less than or equal to the hot water temperature. Verify temperature setpoints and schedules.
+   ** Warning ** CalcEquipmentFlowRates: "PERIMETER_TOP_ZN_4 SUB CAT" - Target water temperature is greater than the hot water temperature by (1.77 C)
+   **   ~~~   **  Environment=RUNPERIOD 1, at Simulation time=01/01 06:00 - 06:10
+   **   ~~~   ** ...target water temperature     = 60.00 C
+   **   ~~~   ** ...hot water temperature        = 58.23 C
+   **   ~~~   ** ...Target water temperature should be less than or equal to the hot water temperature. Verify temperature setpoints and schedules.
+   ** Warning ** CalcEquipmentFlowRates: "PERIMETER_BOT_ZN_3 SUB CAT" - Target water temperature is greater than the hot water temperature by (1.77 C)
+   **   ~~~   **  Environment=RUNPERIOD 1, at Simulation time=01/01 06:00 - 06:10
+   **   ~~~   ** ...target water temperature     = 60.00 C
+   **   ~~~   ** ...hot water temperature        = 58.23 C
+   **   ~~~   ** ...Target water temperature should be less than or equal to the hot water temperature. Verify temperature setpoints and schedules.
+   ** Warning ** CalcEquipmentFlowRates: "PERIMETER_BOT_ZN_2 SUB CAT" - Target water temperature is greater than the hot water temperature by (1.77 C)
+   **   ~~~   **  Environment=RUNPERIOD 1, at Simulation time=01/01 06:00 - 06:10
+   **   ~~~   ** ...target water temperature     = 60.00 C
+   **   ~~~   ** ...hot water temperature        = 58.23 C
+   **   ~~~   ** ...Target water temperature should be less than or equal to the hot water temperature. Verify temperature setpoints and schedules.
+   ** Warning ** CalcEquipmentFlowRates: "PERIMETER_BOT_ZN_1 SUB CAT" - Target water temperature is greater than the hot water temperature by (1.77 C)
+   **   ~~~   **  Environment=RUNPERIOD 1, at Simulation time=01/01 06:00 - 06:10
+   **   ~~~   ** ...target water temperature     = 60.00 C
+   **   ~~~   ** ...hot water temperature        = 58.23 C
+   **   ~~~   ** ...Target water temperature should be less than or equal to the hot water temperature. Verify temperature setpoints and schedules.
+   ** Warning ** CalcEquipmentFlowRates: "PERIMETER_BOT_ZN_4 SUB CAT" - Target water temperature is greater than the hot water temperature by (1.77 C)
+   **   ~~~   **  Environment=RUNPERIOD 1, at Simulation time=01/01 06:00 - 06:10
+   **   ~~~   ** ...target water temperature     = 60.00 C
+   **   ~~~   ** ...hot water temperature        = 58.23 C
+   **   ~~~   ** ...Target water temperature should be less than or equal to the hot water temperature. Verify temperature setpoints and schedules.
+   ** Warning ** CalcEquipmentFlowRates: "PERIMETER_MID_ZN_3 SUB CAT" - Target water temperature is greater than the hot water temperature by (1.77 C)
+   **   ~~~   **  Environment=RUNPERIOD 1, at Simulation time=01/01 06:00 - 06:10
+   **   ~~~   ** ...target water temperature     = 60.00 C
+   **   ~~~   ** ...hot water temperature        = 58.23 C
+   **   ~~~   ** ...Target water temperature should be less than or equal to the hot water temperature. Verify temperature setpoints and schedules.
+   ** Warning ** CalcEquipmentFlowRates: "PERIMETER_MID_ZN_2 SUB CAT" - Target water temperature is greater than the hot water temperature by (1.77 C)
+   **   ~~~   **  Environment=RUNPERIOD 1, at Simulation time=01/01 06:00 - 06:10
+   **   ~~~   ** ...target water temperature     = 60.00 C
+   **   ~~~   ** ...hot water temperature        = 58.23 C
+   **   ~~~   ** ...Target water temperature should be less than or equal to the hot water temperature. Verify temperature setpoints and schedules.
+   ** Warning ** CalcEquipmentFlowRates: "PERIMETER_MID_ZN_1 SUB CAT" - Target water temperature is greater than the hot water temperature by (1.77 C)
+   **   ~~~   **  Environment=RUNPERIOD 1, at Simulation time=01/01 06:00 - 06:10
+   **   ~~~   ** ...target water temperature     = 60.00 C
+   **   ~~~   ** ...hot water temperature        = 58.23 C
+   **   ~~~   ** ...Target water temperature should be less than or equal to the hot water temperature. Verify temperature setpoints and schedules.
+   ** Warning ** CalcEquipmentFlowRates: "PERIMETER_MID_ZN_4 SUB CAT" - Target water temperature is greater than the hot water temperature by (1.77 C)
+   **   ~~~   **  Environment=RUNPERIOD 1, at Simulation time=01/01 06:00 - 06:10
+   **   ~~~   ** ...target water temperature     = 60.00 C
+   **   ~~~   ** ...hot water temperature        = 58.23 C
+   **   ~~~   ** ...Target water temperature should be less than or equal to the hot water temperature. Verify temperature setpoints and schedules.
+   ** Warning ** SimHVAC: Maximum iterations (20) exceeded for all HVAC loops, at RUNPERIOD 1, 01/01 10:08 - 10:10
+   **   ~~~   ** The solution for one or more of the Air Loop HVAC systems did not appear to converge
+   ** Warning ** SimHVAC: Maximum iterations (20) exceeded for all HVAC loops, at RUNPERIOD 1, 01/01 10:40 - 10:43
+   **   ~~~   ** The solution for one or more of the Air Loop HVAC systems did not appear to converge
+   ** Warning ** SimHVAC: Maximum iterations (20) exceeded for all HVAC loops, at RUNPERIOD 1, 01/01 17:20 - 17:22
+   **   ~~~   ** The solution for one or more of the Air Loop HVAC systems did not appear to converge
+   ** Warning ** SimHVAC: Maximum iterations (20) exceeded for all HVAC loops, at RUNPERIOD 1, 01/02 05:20 - 05:21
+   **   ~~~   ** The solution for one or more of the Air Loop HVAC systems did not appear to converge
+   ** Warning ** SimHVAC: Maximum iterations (20) exceeded for all HVAC loops, at RUNPERIOD 1, 01/02 05:35 - 05:38
+   **   ~~~   ** The solution for one or more of the Air Loop HVAC systems did not appear to converge
+   ** Warning ** SimHVAC: Maximum iterations (20) exceeded for all HVAC loops, at RUNPERIOD 1, 01/03 01:30 - 01:40
+   **   ~~~   ** The solution for one or more of the Air Loop HVAC systems did not appear to converge
+   ** Warning ** SimHVAC: Maximum iterations (20) exceeded for all HVAC loops, at RUNPERIOD 1, 01/04 05:06 - 05:08
+   **   ~~~   ** The solution for one or more of the Air Loop HVAC systems did not appear to converge
+   ** Warning ** SimHVAC: Maximum iterations (20) exceeded for all HVAC loops, at RUNPERIOD 1, 01/04 05:15 - 05:20
+   **   ~~~   ** The solution for one or more of the Air Loop HVAC systems did not appear to converge
+   ** Warning ** Temperature out of range [-100. to 200.] (PsyPsatFnTemp)
+   **   ~~~   **  Routine=PsyTwbFnTdbWPb, Environment=RUNPERIOD 1, at Simulation time=01/04 08:02 - 08:03
+   **   ~~~   **  Input Temperature=-819.86
+   ** Warning ** SimHVAC: Maximum iterations (20) exceeded for all HVAC loops, at RUNPERIOD 1, 01/05 06:03 - 06:04
+   **   ~~~   ** The solution for one or more of the Air Loop HVAC systems did not appear to converge
+   ** Warning ** SimHVAC: Maximum iterations (20) exceeded for all HVAC loops, at RUNPERIOD 1, 01/06 05:09 - 05:10
+   **   ~~~   ** The solution for one or more of the Air Loop HVAC systems did not appear to converge
+   ** Warning ** SimHVAC: Maximum iterations (20) exceeded for all HVAC loops, at RUNPERIOD 1, 01/06 05:20 - 05:30
+   **   ~~~   ** The solution for one or more of the Air Loop HVAC systems did not appear to converge
+   ** Warning ** SimHVAC: Maximum iterations (20) exceeded for all HVAC loops, at RUNPERIOD 1, 01/08 11:00 - 11:10
+   **   ~~~   ** The solution for one or more of the Air Loop HVAC systems did not appear to converge
+   **   ~~~   ** Plant System Named = SWHSYS1 did not converge for temperature
+   **   ~~~   ** Check values should be zero. Most Recent values listed first.
+   **   ~~~   ** Demand-to-Supply interface temperature check value iteration history trace: 6.338711E-002,0.227205,1.079558,1.860037E-002,2.317235E-005,1.766766E-003,0.134706,1.160428E-002,2.835206E-005,2.161546E-003,
+   **   ~~~   ** Supply-to-Demand interface temperature check value iteration history trace: 2.191214E-002,7.492529E-002,0.268562,0.199903,3.950654E-007,3.012159E-005,2.296608E-003,0.144071,4.834066E-007,3.685467E-005,
+   **   ~~~   ** Node named SWHSYS1 DEMAND OUTLET NODE shows monotonically increasing temperatures with a trend rate across iterations of 16.62015 [C/iteration]
+   **   ~~~   ** Node named SWHSYS1 DEMAND OUTLET NODE temperature [C] iteration history trace (most recent first): 55.46118,55.27916,0.00000,0.00000,0.00000,
+   **   ~~~   ** Node named SWHSYS1 SUPPLY INLET NODE shows monotonically increasing temperatures with a trend rate across iterations of 16.65372 [C/iteration]
+   **   ~~~   ** Node named SWHSYS1 SUPPLY INLET NODE temperature [C] iteration history trace (most recent first): 55.56699,55.40318,0.00000,0.00000,0.00000,
+   ** Warning ** SimHVAC: Maximum iterations (20) exceeded for all HVAC loops, at RUNPERIOD 1, 01/08 12:35 - 12:40
+   **   ~~~   ** The solution for one or more of the Air Loop HVAC systems did not appear to converge
+   ************* Simulation Error Summary *************
+   ************* There are 33 unused schedules in input.
+   ************* Use Output:Diagnostics,DisplayUnusedSchedules; to see them.
+   *************
+   ************* ===== Recurring Error Summary =====
+   ************* The following recurring error messages occurred.
+   *************
+   *************  ** Warning ** "CORE_BOTTOM SUB CAT" - Target water temperature should be less than or equal to the hot water temperature error continues...
+   *************  **   ~~~   **   This error occurred 469575 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=1.958449  Min=0.082520
+   *************
+   *************  ** Warning ** "CORE_MID SUB CAT" - Target water temperature should be less than or equal to the hot water temperature error continues...
+   *************  **   ~~~   **   This error occurred 469575 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=1.958449  Min=0.082520
+   *************
+   *************  ** Warning ** "CORE_TOP SUB CAT" - Target water temperature should be less than or equal to the hot water temperature error continues...
+   *************  **   ~~~   **   This error occurred 469575 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=1.958449  Min=0.082520
+   *************
+   *************  ** Warning ** "PERIMETER_TOP_ZN_3 SUB CAT" - Target water temperature should be less than or equal to the hot water temperature error continues...
+   *************  **   ~~~   **   This error occurred 469575 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=1.958449  Min=0.082520
+   *************
+   *************  ** Warning ** "PERIMETER_TOP_ZN_2 SUB CAT" - Target water temperature should be less than or equal to the hot water temperature error continues...
+   *************  **   ~~~   **   This error occurred 469575 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=1.958449  Min=0.082520
+   *************
+   *************  ** Warning ** "PERIMETER_TOP_ZN_1 SUB CAT" - Target water temperature should be less than or equal to the hot water temperature error continues...
+   *************  **   ~~~   **   This error occurred 469575 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=1.958449  Min=0.082520
+   *************
+   *************  ** Warning ** "PERIMETER_TOP_ZN_4 SUB CAT" - Target water temperature should be less than or equal to the hot water temperature error continues...
+   *************  **   ~~~   **   This error occurred 469575 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=1.958449  Min=0.082520
+   *************
+   *************  ** Warning ** "PERIMETER_BOT_ZN_3 SUB CAT" - Target water temperature should be less than or equal to the hot water temperature error continues...
+   *************  **   ~~~   **   This error occurred 469575 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=1.958449  Min=0.082520
+   *************
+   *************  ** Warning ** "PERIMETER_BOT_ZN_2 SUB CAT" - Target water temperature should be less than or equal to the hot water temperature error continues...
+   *************  **   ~~~   **   This error occurred 469575 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=1.958449  Min=0.082520
+   *************
+   *************  ** Warning ** "PERIMETER_BOT_ZN_1 SUB CAT" - Target water temperature should be less than or equal to the hot water temperature error continues...
+   *************  **   ~~~   **   This error occurred 469575 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=1.958449  Min=0.082520
+   *************
+   *************  ** Warning ** "PERIMETER_BOT_ZN_4 SUB CAT" - Target water temperature should be less than or equal to the hot water temperature error continues...
+   *************  **   ~~~   **   This error occurred 469575 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=1.958449  Min=0.082520
+   *************
+   *************  ** Warning ** "PERIMETER_MID_ZN_3 SUB CAT" - Target water temperature should be less than or equal to the hot water temperature error continues...
+   *************  **   ~~~   **   This error occurred 469575 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=1.958449  Min=0.082520
+   *************
+   *************  ** Warning ** "PERIMETER_MID_ZN_2 SUB CAT" - Target water temperature should be less than or equal to the hot water temperature error continues...
+   *************  **   ~~~   **   This error occurred 469575 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=1.958449  Min=0.082520
+   *************
+   *************  ** Warning ** "PERIMETER_MID_ZN_1 SUB CAT" - Target water temperature should be less than or equal to the hot water temperature error continues...
+   *************  **   ~~~   **   This error occurred 469575 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=1.958449  Min=0.082520
+   *************
+   *************  ** Warning ** "PERIMETER_MID_ZN_4 SUB CAT" - Target water temperature should be less than or equal to the hot water temperature error continues...
+   *************  **   ~~~   **   This error occurred 469575 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=1.958449  Min=0.082520
+   *************
+   *************  ** Warning ** Temperature out of range [-100. to 200.] (PsyPsatFnTemp)
+   *************  **   ~~~   **   This error occurred 13 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=-103.228535 C  Min=-819.863678 C
+   *************
+   *************  ** Warning ** SimHVAC: Exceeding Maximum iterations for all HVAC loops, during RUNPERIOD 1 continues
+   *************  **   ~~~   **   This error occurred 60 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************
+   *************
+   ************* ===== Final Error Summary =====
+   ************* The following error categories occurred.  Consider correcting or noting.
+   ************* Nominally Unused Constructions
+   ************* ..The nominally unused constructions warning is provided to alert you to potential conditions that can cause
+   ************* ..extra time during simulation. Each construction is calculated by the algorithm indicated in the HeatBalanceAlgorithm
+   ************* ..object. You may remove the constructions indicated (when you use the DisplayExtraWarnings option).
+   *************
+   ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
+   ************* EnergyPlus Sizing Error Summary. During Sizing: 15 Warning; 0 Severe Errors.
+   ************* EnergyPlus Completed Successfully-- 7043761 Warning; 0 Severe Errors; Elapsed Time=00hr 00min 22.23sec
