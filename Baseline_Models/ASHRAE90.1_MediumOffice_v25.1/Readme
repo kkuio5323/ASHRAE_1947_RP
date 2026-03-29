@@ -1,1 +1,26 @@
 
+# Version updated medium office DOE Prototype Building Models
+# Version is updated from 22.1 to 25.1
+# ASHRAE 90.1-2022 version model
+# 16 Climate zones
+#    Climate zone description
+#    - 1AWH/1AWHT : MIAMI, FL
+#    - 2AWH : TAMPA, FL
+#    - 2B : TUCSON, AZ
+#    - 3A/3AWH: ATLANTA, GA
+#    - 3B : EL PASO, TX
+#    - 3C : SAN DIEGO, CA
+#    - 4A : NEW YORK, NY
+#    - 4B : ALBUQUERQUE, NM
+#    - 4C : SEATTLE, WA
+#    - 5A : BUFFALO, NY
+#    - 5B : DENVER, CO
+#    - 5C : PORT ANGELES, WA
+#    - 6A : ROCHESTER, MN
+#    - 6B : GREAT FALLS, MT
+#    - 7 : INTERNATIONAL FALLS, MN
+#    - 8 : FAIRBANKS, AK
+# Foundation types and HVAC system types are fixed for the medium office building
+#    HVAC system type
+#      - Heating: Gas central heating and electric reheat
+#      - Cooling: Direct expansion
