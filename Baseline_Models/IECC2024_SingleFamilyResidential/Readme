@@ -1,1 +1,30 @@
 
+# Version updated single-family detached residential DOE Prototype Building Models
+# Version is updated from 23.1 to 25.1
+# IECC 2024 code version model
+# 16 Climate zones
+#    Climate zone description
+#    - 1AWH/1AWHT : MIAMI, FL
+#    - 2AWH : TAMPA, FL
+#    - 2B : TUCSON, AZ
+#    - 3A/3AWH: ATLANTA, GA
+#    - 3B : EL PASO, TX
+#    - 3C : SAN DIEGO, CA
+#    - 4A : NEW YORK, NY
+#    - 4B : ALBUQUERQUE, NM
+#    - 4C : SEATTLE, WA
+#    - 5A : BUFFALO, NY
+#    - 5B : DENVER, CO
+#    - 5C : PORT ANGELES, WA
+#    - 6A : ROCHESTER, MN
+#    - 6B : GREAT FALLS, MT
+#    - 7 : INTERNATIONAL FALLS, MN
+#    - 8 : FAIRBANKS, AK
+# Foundation types and HVAC system types description
+#    HVAC system type
+#      - Heating: Gas furnace, Electric resistance, ASHP
+#      - Cooling: Direct expansion, ASHP
+#    Foundation types by climate zone
+#      - Slab: 1AWH, 2AWH, 2B, 3A, 3AWH, 3B, 3V, 4A, 4B, 5B
+#      - Crawlspace: 1AWHT, 4C, 5C, 8
+#      - Heated basement: 5A, 6A, 6B, 7
