@@ -14,33 +14,30 @@ import sys
 
 
 
-#%% data path
+#%% Define data path and idd path
 
 pathnameto_eppy = '../'
 sys.path.append(pathnameto_eppy)
 
 ##### Windows OS
-iddfile = "C:/EnergyPlusV25-1-0/Energy+.idd"
-office1 = "../Building_models/Model_test/mid_office/ASHRAE901_OfficeMedium_STD2022/"
-filename = "ASHRAE901_OfficeMedium_STD2022_NewYork.idf"
+iddfile = "IDD file path" # IDD file path
+office1 = "file path" # File path
+filename = "idf file name" # IDF file name including the file extension
 
-##### mac OS
-# iddfile = "/Applications/EnergyPlus-25-1-0/Energy+.idd"
-# office1 = "../Building_models/Model_test/mid_office/ASHRAE901_OfficeMedium_STD2022/"
-# filename = "ASHRAE901_OfficeMedium_STD2022_NewYork.idf"
+
+
 IDF.setiddname(iddfile)
 idf1 = IDF(office1 + filename)
 
-newpath = "../Building_models/New_model1/"
+newpath = "new model file saving path" # File path for the modified new model
 
-#%%
+#%% Necessary function definition
 
-#put this measure in the loop
+def measure1(idf1, newpath): # Change gas furnace heating system in office building to electric resistance heating system.
+    floors = 3 
+    location = idf1.idfobjects['Site:Location'][0].Name[:20] # Extract location information for file renaming
 
-def measure1(idf1, newpath):
-    floors = 3
-    location = idf1.idfobjects['Site:Location'][0].Name[:20]
-    
+    ## Define object path
     coil_elc = "Coil:Heating:Electric"
     coil_gas = 'Coil:Heating:Fuel'
     gas = idf1.idfobjects[coil_gas]
@@ -49,10 +46,11 @@ def measure1(idf1, newpath):
     heating_gas = gas[0]
     heating_elec = elec[0]
 
-    # check field names
+    # Check object field names
     gasfields=heating_gas.fieldnames[1:]
     elecfields=heating_elec.fieldnames[1:]
-    
+
+    # Extract necessary information from the original model
     l = 1   
     for i in range(floors):
         globals()['new_e' + 
@@ -73,7 +71,7 @@ def measure1(idf1, newpath):
                   str(l)].loc[elecfields[6], 'value'] = gas[i].Temperature_Setpoint_Node_Name   
         l = l+1
         
-    
+    # Create new heating coil objects by floor
     idf1.newidfobject(coil_elc)    
     elec[-1].Name = new_e3.loc['Name', 'value']
     elec[-1].Availability_Schedule_Name = new_e3.loc['Availability_Schedule_Name', 'value']
@@ -103,18 +101,20 @@ def measure1(idf1, newpath):
     elec[-1].Air_Outlet_Node_Name = new_e1.loc['Air_Outlet_Node_Name', 'value']
     elec[-1].Temperature_Setpoint_Node_Name = new_e2.loc['Temperature_Setpoint_Node_Name', 'value']
 
+    # Remove old gas furnace heating objects
     gas.clear()
-    
+
+    # Update the branch
     b = 'Branch'
     branch = idf1.idfobjects[b]
     for a in range(floors):
         branch[a].Component_3_Object_Type = coil_elc
     
-    
-    idf1.saveas(newpath + "m1_" + location + '.idf')
+    # Save the modified idf file (New Model 1)
+    idf1.saveas(newpath + "NewModel1_" + location + '.idf')
     return print("check the new file")
     
-#%% test
+#%% Run Measure 1
  
-# measure1(idf1, newpath)
+measure1(idf1, newpath)
     
