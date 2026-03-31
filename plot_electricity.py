@@ -3,7 +3,8 @@ import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
 import os
 
-CSV_FILE = '/Users/harry/Downloads/Measure3_winter_residential.csv'   
+CSV_FILE = 'Measure5_winter_residential.csv'
+# '/Users/harry/Downloads/Measure3_winter_residential.csv'   
 # filename path, following the format "Measure3_[winter/summer]_[office/residential].csv"
 
 basename = os.path.basename(CSV_FILE).lower()
@@ -22,36 +23,54 @@ else:
     building_type = "Building"
 
 title = f"{season} season electricity consumption ({building_type})"
+# title = f"{season} season HVAC energy consumption ({building_type})"
+
 
 df = pd.read_csv(CSV_FILE)
 
 df.columns = df.columns.str.strip()
 
 x      = df["Date/Time"]
-y_orig = df["Original"]
-y_mod  = df["Measure 3 modified"]
+y_orig = df["Original"] #for measures
+# y_orig = df["Electricity"] #for model 2
+# labelname_elec = 'Electricity'
+y_mod  = df["Measure 5 modified"] #for measures
+labelname = "Measure 5 modified"
+
+# y_mod  = df["Natural gas"] #for model 2
+# labelname_gas = "Natural Gas"
 
 plt.rcParams["font.family"]      = "Times New Roman"
-plt.rcParams["font.size"]        = 12
-plt.rcParams["axes.titlesize"]   = 15
-plt.rcParams["axes.labelsize"]   = 13
-plt.rcParams["xtick.labelsize"]  = 9
-plt.rcParams["ytick.labelsize"]  = 11
-plt.rcParams["legend.fontsize"]  = 11
+plt.rcParams["font.size"]        = 18
+plt.rcParams["axes.titlesize"]   = 18
+plt.rcParams["axes.labelsize"]   = 15
+plt.rcParams["xtick.labelsize"]  = 13
+plt.rcParams["ytick.labelsize"]  = 13
+plt.rcParams["legend.fontsize"]  = 15
 
-fig, ax = plt.subplots(figsize=(11.1, 6), dpi=300)
+fig, ax = plt.subplots(figsize=(11.1, 6.5), dpi=300)
 
-ax.plot(x, y_orig, color="#2166AC", linewidth=2.0,
-        label="Original")
-ax.plot(x, y_mod,  color="#F97316", linewidth=2.0,
-        label="Measure 3 modified")
+ax.plot(x, y_orig, color="#1500FF", linewidth=1.5,
+        label='Original', marker = 'o', markersize = 3)
+ax.plot(x, y_mod,  color="#FF0000", linewidth=1.5,
+        label=labelname, marker = 'D', markersize = 3)
+# ax.plot(x, y_mod,  color="#FF0000", linewidth=1.5,
+#         label=labelname_gas, marker = 'D', markersize = 3)
 
 ax.set_title(title, pad=14)
-ax.set_ylabel("HVAC electricity consumption [J]")
+ax.set_ylabel("HVAC Energy consumption [MJ]")
 ax.set_xlabel("")
 
-ax.set_xticks(range(0, len(x)))
-ax.set_xticklabels(x, rotation=90, ha="left")
+# except m2
+# ax.set_xticks(range(0, len(x)))
+# ax.set_xticklabels(x, rotation = -45, ha="left")
+# plt.margins(x=0.01)
+
+#for m2
+step = max(1, len(x) // 20)  # show ~20 labels max
+ax.set_xticks(range(0, len(x), step))
+ax.set_xticklabels([x[i] for i in range(0, len(x), step)], rotation=-45, ha = 'left')
+
 
 y_all = pd.concat([y_orig, y_mod])
 y_min, y_max = 0, y_all.max()
