@@ -99,7 +99,7 @@ def measure1(idf1, newpath): # Change gas furnace heating system in office build
     elec[-1].Nominal_Capacity = new_e1.loc['Nominal_Capacity', 'value']
     elec[-1].Air_Inlet_Node_Name = new_e1.loc['Air_Inlet_Node_Name', 'value']
     elec[-1].Air_Outlet_Node_Name = new_e1.loc['Air_Outlet_Node_Name', 'value']
-    elec[-1].Temperature_Setpoint_Node_Name = new_e2.loc['Temperature_Setpoint_Node_Name', 'value']
+    elec[-1].Temperature_Setpoint_Node_Name = new_e1.loc['Temperature_Setpoint_Node_Name', 'value']
 
     # Remove old gas furnace heating objects
     gas.clear()
